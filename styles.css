@@ -1,0 +1,133 @@
+body {
+  text-align: center;
+  font-family: 'Lobster';
+  background-color: rgb(255, 234, 115);
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* TOP */
+
+#text {
+  font-family: 'Pacifico';
+  font-size: 6rem;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px black;
+  padding: 5% 15%;
+}
+
+/* BUTTONS */
+
+#buttons {
+  padding: 0% 15% 5%;
+}
+
+.drums {
+  position: relative;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px rgb(37, 32, 0);
+  font-size: 3rem;
+  font-family: 'Arial';
+  font-weight: bold;
+  color: rgb(255, 208, 0);
+  text-shadow: 2px 2px 0 #493700;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  margin: 2% 1%;
+  padding: 3% 0;
+}
+
+.drums:hover {
+  color: rgb(236, 193, 0);
+}
+
+.drums-active {
+  box-shadow: 0px 0px 0px rgb(255, 255, 255);
+  left: 2px;
+  top: 2px;
+  color: rgb(236, 193, 0);
+}
+
+.gp-btn-bottom {
+  margin: 0% 0% 0% 7%;
+}
+
+.gp-btn-top {
+  margin: 0% 7% 0% 0%;
+}
+
+.q {
+  background-image: url("images/chimb-2.png");
+}
+
+.w {
+  background-image: url("images/chimb-1.png");
+}
+
+.e {
+  background-image: url("images/chimb-3.png");
+}
+
+.a {
+  background-image: url("images/bumbo.png");
+}
+
+.s {
+  background-image: url("images/caixa.png");
+}
+
+.r,
+.t {
+  background-image: url("images/crash.png");
+}
+
+.d,
+.f,
+.g {
+  background-image: url("images/tom.png");
+}
+
+/* FOOTER */
+#footer h2 {
+  font-size: 1rem;
+}
+
+#email {
+  margin-top: -0.5%;
+  font-size: 0.7rem;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+#btn-copy {
+  position: relative;
+  background-image: -webkit-linear-gradient(top, #f6c53d, #d0a71e);
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px rgb(37, 32, 0);
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0 #000000;
+  font-size: 0.7rem;
+  font-weight: 800;
+  border: solid #f6d43d 1px;
+}
+
+#btn-copy:hover {
+  background-image: -webkit-linear-gradient(top, #d0af1e, #f6da3d);
+}
+
+#btn-copy:active {
+  left: 2px;
+  top: 2px;
+  box-shadow: 0px 0px 0px rgb(37, 32, 0);
+}
+
+.fa-envelope {
+  color: #ffffff;
+}
